@@ -75,7 +75,7 @@ class Centaur
       @rested
       p "NO!"
     when @rested == 0
-      puts "I AM SICK NOW!"
+      p "I AM SICK NOW!"
     end
   end
 
